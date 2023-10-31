@@ -1,0 +1,23 @@
+.mainWrapper {
+  @apply min-h-screen m-3;
+}
+
+.imageWrapper {
+  @apply relative flex-col justify-center flex-wrap gap-5 flex items-center bg-[url('/unnamed.jpg')] h-[500px] rounded-3xl bg-cover w-full;
+}
+
+.headingContainer {
+  @apply flex items-center w-full;
+}
+
+.heading {
+  @apply text-[var(--primary-color)] bg-transparent text-center w-full text-6xl;
+}
+
+.buttonWrapper {
+  @apply rounded-[48px] h-8 p-10 bg-[var(--button-bg)] w-60 flex items-center justify-center;
+}
+
+.button {
+  @apply h-full flex items-center justify-center text-['#062E6F'] text-2xl;
+}

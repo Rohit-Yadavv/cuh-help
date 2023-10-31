@@ -1,0 +1,12 @@
+.navWrapper {
+  @apply h-12 bg-[var(--card-bg)] rounded-3xl m-3;
+}
+
+.wrapper {
+}
+
+.logo {
+}
+
+.navLinks {
+}
