@@ -8,16 +8,6 @@ import ImageNav from "@/components/ImageNav/ImageNav";
 export default function Home() {
   return (
     <main className={styles.mainWrapper}>
-      {/* 
-      <div className={styles.imageWrapper}>
-        <Link href="/" className={styles.logo}>
-          <Image src="/logo.png" alt="logo" width="400" height="400" />
-        </Link>
-        <h1 className={styles.heroHeading}>
-          From Arts to Sciences, Notes for All Departments, Only at LearnEaseU
-        </h1>
-      </div>
- */}
       <ImageNav text="From Arts to Sciences, Notes for All Departments, Only at LearnEaseU" />
 
       {/* department  */}

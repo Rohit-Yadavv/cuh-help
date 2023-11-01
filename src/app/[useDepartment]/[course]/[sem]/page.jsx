@@ -10,7 +10,8 @@ import ImageNav from "@/components/ImageNav/ImageNav";
 
 const Page = () => {
   const router = useRouter();
-  const { department, sem, course } = useParams();
+  const { useDepartment, sem, course } = useParams();
+  const department = useDepartment;
   const combination = department + course + sem;
 
   var notesArray = [];
@@ -31,7 +32,7 @@ const Page = () => {
         <div className={styles.departments}>
           {notesArray.map((item) => (
             <NotesCard
-              key={item.name}
+              key={item.id}
               name={item.subjectName}
               link={item.driveLink}
               contentType={item.contentType}
