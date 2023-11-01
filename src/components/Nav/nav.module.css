@@ -1,12 +1,28 @@
 .navWrapper {
-  @apply h-12 bg-[var(--card-bg)] rounded-3xl m-3;
+  @apply h-12 bg-[var(--card-bg)] rounded-3xl m-3 flex items-center justify-center p-2;
 }
 
 .wrapper {
+  @apply flex items-center justify-around bg-transparent w-full;
 }
 
 .logo {
+  @apply bg-none bg-transparent w-1/2 flex justify-center items-center;
 }
-
+.logo img {
+  @apply bg-none bg-transparent w-32;
+}
 .navLinks {
+  @apply hidden sm:flex justify-center items-center w-1/2 bg-transparent gap-10;
 }
+.link {
+  @apply bg-transparent text-xl;
+  color: var(--primary-color);
+}
+.link:hover {
+  color: var(--button-bg);
+}
+/* 
+.navLinks img{
+  @apply bg-none bg-transparent;
+} */

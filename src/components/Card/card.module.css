@@ -1,0 +1,24 @@
+/* <div className={styles.cardWrapper}>
+<div className={styles.card}>
+  <h2 className={styles.heading}>{props.short}</h2>
+  <p className={styles.text}>{props.heading}</p>
+</div>
+</div> */
+.cardWrapper {
+  @apply sm:w-[45%] h-full w-full;
+}
+
+.card {
+  @apply flex flex-col justify-center bg-[var(--card-bg)] rounded-3xl w-full min-h-[120px] p-2;
+  text-transform: capitalize;
+}
+.card:hover {
+  background-color: var(--card-hover);
+  cursor: pointer;
+}
+.heading {
+  @apply bg-transparent text-3xl;
+}
+.text {
+  @apply bg-transparent text-xl opacity-75;
+}

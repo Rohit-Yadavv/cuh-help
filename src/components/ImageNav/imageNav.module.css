@@ -1,0 +1,15 @@
+.imageWrapper {
+  @apply relative flex flex-col justify-center items-center gap-5 bg-cover bg-center bg-no-repeat h-[450px] rounded-3xl;
+  background-image: url("/unnamed.jpg");
+}
+
+.logo {
+  @apply bg-transparent bg-none h-[100px] flex items-center justify-center;
+}
+.logo img {
+  @apply bg-transparent cursor-pointer w-[250px] sm:w-[400px];
+}
+.heroHeading {
+  @apply text-[var(--primary-color)] text-xl sm:text-2xl bg-transparent text-center w-full;
+  text-transform: capitalize;
+}

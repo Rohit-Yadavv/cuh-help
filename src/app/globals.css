@@ -14,4 +14,13 @@
   margin: 0;
   box-sizing: border-box;
   background-color: var(--main-bg);
+  color: var(--primary-color);
+  transition: border-radius 0.3s cubic-bezier(0.2, 0, 0, 1),
+    background-color 0.4s cubic-bezier(0.2, 0, 0, 1);
+}
+main {
+  min-height: 100vh;
+}
+strong {
+  background-color: transparent;
 }

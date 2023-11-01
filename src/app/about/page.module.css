@@ -1,0 +1,36 @@
+/* AboutPage.module.css */
+
+/* General Styles */
+.container {
+  @apply w-full p-5;
+}
+
+/* Header Styles */
+.pageHeader {
+  @apply text-center text-3xl;
+}
+
+/* Section Styles */
+.pageSection {
+  @apply my-5 p-5 bg-[var(--card-bg)];
+  border-radius: 24px;
+}
+
+.sectionHeader {
+  @apply mt-5 bg-[var(--card-bg)] text-white text-2xl;
+}
+
+.sectionText {
+  @apply bg-[var(--card-bg)];
+}
+
+/* List Styles */
+.sectionList {
+  @apply bg-[var(--card-bg)];
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.listItem {
+  @apply bg-[var(--card-bg)];
+}

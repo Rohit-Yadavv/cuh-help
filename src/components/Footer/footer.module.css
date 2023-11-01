@@ -1,0 +1,16 @@
+.footerWrapper {
+  @apply w-full py-10;
+}
+.footer {
+  @apply w-full flex-col sm:flex-row flex items-center justify-around flex-wrap gap-3 pt-3;
+}
+.logo {
+  @apply flex items-center justify-center;
+}
+
+.link {
+  @apply flex items-center justify-evenly gap-5;
+}
+.footerText {
+  @apply text-center text-xl;
+}

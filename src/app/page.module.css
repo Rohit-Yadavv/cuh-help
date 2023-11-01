@@ -1,23 +1,35 @@
+/* Improve readability and group related styles together */
+
+/* Base styles */
 .mainWrapper {
   @apply min-h-screen m-3;
 }
 
 .imageWrapper {
-  @apply relative flex-col justify-center flex-wrap gap-5 flex items-center bg-[url('/unnamed.jpg')] h-[500px] rounded-3xl bg-cover w-full;
+  @apply relative flex flex-col justify-center items-center gap-5 bg-cover bg-center bg-no-repeat h-[450px] rounded-3xl;
+  background-image: url("/unnamed.jpg");
 }
 
-.headingContainer {
-  @apply flex items-center w-full;
+.logo {
+  @apply bg-transparent bg-none h-[100px] flex items-center justify-center;
+}
+.logo img {
+  @apply bg-transparent cursor-pointer w-[250px] sm:w-[400px];
+}
+.heroHeading {
+  @apply text-[var(--primary-color)] text-xl sm:text-2xl bg-transparent text-center w-full;
+  text-transform: capitalize;
+}
+
+/* Department styles */
+.sectionWrapper {
+  @apply flex flex-col w-full;
 }
 
 .heading {
-  @apply text-[var(--primary-color)] bg-transparent text-center w-full text-6xl;
+  @apply text-4xl sm:text-5xl pt-12 sm:pt-14 py-0 sm:py-2 ps-2 sm:ps-10;
 }
 
-.buttonWrapper {
-  @apply rounded-[48px] h-8 p-10 bg-[var(--button-bg)] w-60 flex items-center justify-center;
-}
-
-.button {
-  @apply h-full flex items-center justify-center text-['#062E6F'] text-2xl;
+.departments {
+  @apply flex flex-wrap w-full items-center gap-5 pt-10 justify-center;
 }
