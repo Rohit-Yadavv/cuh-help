@@ -61,7 +61,7 @@ const AboutPage = () => {
         <h2 className={styles.sectionHeader}>Meet the Founder</h2>
         <p className={styles.sectionText}>
           I am committed to providing you with the best resources and support.
-          If you have any questions, suggestions, or requests, please don't
+          If you have any questions, suggestions, or requests, please don&apos;t
           hesitate to contact me.
         </p>
 

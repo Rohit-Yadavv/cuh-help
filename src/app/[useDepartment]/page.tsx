@@ -1,12 +1,11 @@
 "use client";
-import React from "react";
 import styles from "@/app/page.module.css";
 import Card from "@/components/Card/Card";
 import ImageNav from "@/components/ImageNav/ImageNav";
 import { departments } from "@/constants/department";
 import { notFound, useParams } from "next/navigation";
-
-const page = () => {
+const Page = () => {
+  // Make sure to capitalize the component name
   const { useDepartment } = useParams();
   const curDep = departments.find(
     (dept) => dept.shortName.toLowerCase() === useDepartment
@@ -36,4 +35,5 @@ const page = () => {
     </main>
   );
 };
-export default page;
+
+export default Page; // Make sure to export with an uppercase name
