@@ -48,58 +48,60 @@ const csebtechsem1 = [
     driveLink: "https://drive.google.com/file/d/1g7WZyL4wBX7j6uaVaz7oOoWBbn5x2bYI/view?usp=sharing"
   },
 ]
-const csebtechsem2 = [
-  {
-    subjectName: "about",
-    driveLink: "About",
-  },
-  {
-    subjectName: "skills",
-    driveLink: "Skills",
-  },
-  {
-    subjectName: "projects",
-    driveLink: "Projects",
-  },
-  {
-    subjectName: "contact",
-    driveLink: "Contact",
-  },
-]
-const csebtechsem3 = [
-  {
-    subjectName: "about",
-    driveLink: "About",
-  },
-  {
-    subjectName: "skills",
-    driveLink: "Skills",
-  },
-  {
-    subjectName: "projects",
-    driveLink: "Projects",
-  },
-  {
-    subjectName: "contact",
-    driveLink: "Contact",
-  },
-]
-const csebtechsem4 = [
-  {
-    subjectName: "about",
-    driveLink: "About",
-  },
-  {
-    subjectName: "skills",
-    driveLink: "Skills",
-  },
-  {
-    subjectName: "projects",
-    driveLink: "Projects",
-  },
-  {
-    subjectName: "contact",
-    driveLink: "Contact",
-  },
-]
-export { csebtechsem1, csebtechsem2, csebtechsem3, csebtechsem4 };
+
+// const csebtechsem2 = [
+//   {
+//     subjectName: "about",
+//     driveLink: "About",
+//   },
+//   {
+//     subjectName: "skills",
+//     driveLink: "Skills",
+//   },
+//   {
+//     subjectName: "projects",
+//     driveLink: "Projects",
+//   },
+//   {
+//     subjectName: "contact",
+//     driveLink: "Contact",
+//   },
+// ]
+// const csebtechsem3 = [
+//   {
+//     subjectName: "about",
+//     driveLink: "About",
+//   },
+//   {
+//     subjectName: "skills",
+//     driveLink: "Skills",
+//   },
+//   {
+//     subjectName: "projects",
+//     driveLink: "Projects",
+//   },
+//   {
+//     subjectName: "contact",
+//     driveLink: "Contact",
+//   },
+// ]
+// const csebtechsem4 = [
+//   {
+//     subjectName: "about",
+//     driveLink: "About",
+//   },
+//   {
+//     subjectName: "skills",
+//     driveLink: "Skills",
+//   },
+//   {
+//     subjectName: "projects",
+//     driveLink: "Projects",
+//   },
+//   {
+//     subjectName: "contact",
+//     driveLink: "Contact",
+//   },
+// ]
+// export { csebtechsem1, csebtechsem2, csebtechsem3, csebtechsem4 };
+export { csebtechsem1 };
