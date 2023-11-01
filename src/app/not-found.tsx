@@ -10,7 +10,7 @@ const page = () => {
         <div className={styles.buttonsWrapper}>
           <button className={styles.buttonWrapper}>
             <Link
-              href="https://forms.gle/bL6iX7Qcr9GFAdJo6"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScuvG-bJQJbKFBcXZN7OL1NCrzlmb0-8eAjS45dZdden7sVKg/viewform"
               className={styles.button}
             >
               Contribute

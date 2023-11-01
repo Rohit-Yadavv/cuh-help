@@ -42,7 +42,9 @@ const Footer = () => {
         </Link>
         <div className={styles.link}>
           <Link href="/about">About Us</Link>
-          <Link href="https://forms.gle/Y4ESEZ7S1cWp6Tp98">Contribute</Link>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScuvG-bJQJbKFBcXZN7OL1NCrzlmb0-8eAjS45dZdden7sVKg/viewform">
+            Contribute
+          </Link>
         </div>
       </div>
     </footer>
