@@ -17,6 +17,8 @@
   color: var(--primary-color);
   transition: border-radius 0.3s cubic-bezier(0.2, 0, 0, 1),
     background-color 0.4s cubic-bezier(0.2, 0, 0, 1);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  touch-action: auto;
 }
 main {
   min-height: 100vh;

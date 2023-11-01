@@ -1,19 +1,19 @@
 const csebtechsem1 = [
   {
     id: 1,
-    subjectName: "Term End Exam",
+    subjectName: "End Term Exam",
     contentType: "2022-2023",
     driveLink: "https://drive.google.com/file/d/1XTKNSKZpyuAQqPtuGnRYWpDvIADpyM6N/view?usp=sharing"
   },
   {
     id: 2,
-    subjectName: "Term End Exam",
+    subjectName: "End Term Exam",
     contentType: "2021-2022",
     driveLink: "https://drive.google.com/file/d/1yu71W92m8h6MsiwwjnfSPtX9s67h938r/view?usp=sharing"
   },
   {
     id: 3,
-    subjectName: "Term End Exam",
+    subjectName: "End Term Exam",
     contentType: "2018-2019",
     driveLink: "https://drive.google.com/file/d/1v5Rt1-_Su0x7-q50V-rWak4UQkbaxBSo/view?usp=sharing"
   },
