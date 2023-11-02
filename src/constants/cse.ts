@@ -68,7 +68,7 @@ const csebtechsem1 = [
   },
 ]
 
-const csebtechsem2 = [
+const csebtechsem3 = [
   {
     id: 1,
     subjectName: "End Term Exam",
@@ -202,4 +202,4 @@ const csebtechsem2 = [
 //   },
 // ]
 // export { csebtechsem1, csebtechsem2, csebtechsem3, csebtechsem4 };
-export { csebtechsem1, csebtechsem2 };
+export { csebtechsem1, csebtechsem3 };
