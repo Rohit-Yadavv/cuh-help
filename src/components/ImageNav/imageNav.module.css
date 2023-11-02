@@ -1,5 +1,5 @@
 .imageWrapper {
-  @apply relative gap-5 h-[400px] rounded-2xl sm:rounded-3xl;
+  @apply relative gap-5 h-[450px] rounded-2xl sm:rounded-3xl;
   /* @apply relative flex flex-col justify-center items-center gap-5 bg-cover bg-center bg-no-repeat h-[450px] rounded-3xl; */
   /* background-image: url("/unnamed.jpg"); */
 }
