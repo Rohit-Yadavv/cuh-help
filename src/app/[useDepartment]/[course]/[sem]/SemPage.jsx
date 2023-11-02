@@ -5,8 +5,6 @@ import files from "@/constants/";
 import NotesCard from "@/components/NotesCard/NotesCard";
 import { useRouter } from "next/navigation";
 import ImageNav from "@/components/ImageNav/ImageNav";
-import { Helmet } from "react-helmet";
-
 const SemPage = () => {
   const router = useRouter();
   const { useDepartment, sem, course } = useParams();
@@ -23,14 +21,9 @@ const SemPage = () => {
 
   return (
     <main className={styles.mainWrapper}>
-      <Helmet>
-        <title>{`${department} ${course} ${sem} - LearnEaseU`}</title>
-      </Helmet>
       <ImageNav text={`${department} ${course} ${sem}`} />
-
-      {/* department  */}
       <div className={styles.sectionWrapper}>
-        <h2 className={styles.heading}>Notes and Seassonals</h2>
+        <h2 className={styles.heading}>Notes & PYQs</h2>
         <div className={styles.departments}>
           {notesArray.map((item) => (
             <NotesCard

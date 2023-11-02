@@ -26,3 +26,9 @@ main {
 strong {
   background-color: transparent;
 }
+canvas {
+  border-radius: 24px;
+}
+#tsparticles {
+  height: 100%;
+}

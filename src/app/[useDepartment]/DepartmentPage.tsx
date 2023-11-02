@@ -4,6 +4,7 @@ import Card from "@/components/Card/Card";
 import ImageNav from "@/components/ImageNav/ImageNav";
 import { departments } from "@/constants/department";
 import { notFound, useParams } from "next/navigation";
+import ParticlesBackground from "@/components/Particles/ParticlesBackground";
 
 const DepartmentPage = () => {
   const { useDepartment } = useParams();
@@ -17,7 +18,6 @@ const DepartmentPage = () => {
   return (
     <main className={styles.mainWrapper}>
       <ImageNav text={`${curDep.fullName} Notes`} />
-
       {curDep?.course?.map((item) => (
         <div key={item.name} className={styles.sectionWrapper}>
           <h2 className={styles.heading}>{item.name}</h2>

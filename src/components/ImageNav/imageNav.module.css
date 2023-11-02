@@ -1,10 +1,11 @@
 .imageWrapper {
-  @apply relative flex flex-col justify-center items-center gap-5 bg-cover bg-center bg-no-repeat h-[450px] rounded-3xl;
-  background-image: url("/unnamed.jpg");
+  @apply relative gap-5 h-[400px] rounded-2xl sm:rounded-3xl;
+  /* @apply relative flex flex-col justify-center items-center gap-5 bg-cover bg-center bg-no-repeat h-[450px] rounded-3xl; */
+  /* background-image: url("/unnamed.jpg"); */
 }
 
 .logo {
-  @apply bg-transparent bg-none h-[100px] flex items-center justify-center;
+  @apply gap-4 bg-transparent bg-none h-full flex flex-col items-center justify-center absolute w-full;
 }
 .logo img {
   @apply bg-transparent cursor-pointer w-[250px] sm:w-[400px];

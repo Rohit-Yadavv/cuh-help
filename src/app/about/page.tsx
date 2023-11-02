@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
 import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import ImageNav from "@/components/ImageNav/ImageNav";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us ",
@@ -12,8 +12,6 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <ImageNav text="About LearnEaseU" />
-      {/* <h1 className={styles.pageHeader}>About LearnEaseU</h1> */}
-
       <section className={styles.pageSection}>
         <h2 className={styles.sectionHeader}>Welcome to LearnEaseU!</h2>
         <p className={styles.sectionText}>
