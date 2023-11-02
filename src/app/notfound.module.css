@@ -11,10 +11,10 @@
   @apply flex w-full flex-wrap gap-10 items-center justify-around;
 }
 .buttonWrapper {
-  @apply rounded-[48px] h-8 p-10 w-60 flex items-center justify-center bg-[var(--button-bg)];
+  @apply rounded-[48px] h-[2rem] p-[2rem] w-[10rem] flex items-center justify-center bg-[var(--button-bg)];
 }
 .button {
-  @apply h-full text-3xl flex items-center justify-center;
+  @apply h-full text-2xl flex items-center justify-center;
   color: #062e6f !important;
   transition: opacity 0.2s cubic-bezier(0.2, 0, 0, 1);
 }
