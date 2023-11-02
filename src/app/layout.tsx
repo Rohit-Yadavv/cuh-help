@@ -36,6 +36,10 @@ export const metadata: Metadata = {
   ],
   creator: "Rohit Yadav",
   publisher: "Rohit Yadav",
+  openGraph: {
+    title: "LearnEaseU",
+    description: `Download Sessionals,Study materials, and PYQs for Central University. Simplify your studies and excel with LearnEaseU.`,
+  },
 };
 
 export default function RootLayout({

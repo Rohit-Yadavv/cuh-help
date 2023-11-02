@@ -10,7 +10,7 @@ export async function generateMetadata({ params }: any) {
     title: { finalUppercase },
     openGraph: {
       title: { finalUppercase },
-      description: `End Term Exam, Seassonals and Notes of ${semsester} ${course} ${department}`,
+      description: `Download Sessionals,Study materials, and PYQs of ${semsester} ${course} ${department}`,
     },
   };
 }
