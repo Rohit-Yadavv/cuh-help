@@ -4,7 +4,6 @@ import Card from "@/components/Card/Card";
 import ImageNav from "@/components/ImageNav/ImageNav";
 import { departments } from "@/constants/department";
 import { notFound, useParams } from "next/navigation";
-import ParticlesBackground from "@/components/Particles/ParticlesBackground";
 
 const DepartmentPage = () => {
   const { useDepartment } = useParams();
