@@ -8,7 +8,7 @@
   @apply gap-4 bg-transparent bg-none h-full flex flex-col items-center justify-center absolute w-full;
 }
 .logo img {
-  @apply bg-transparent cursor-pointer w-[250px] sm:w-[400px];
+  @apply bg-transparent cursor-pointer w-[300px] sm:w-[400px];
 }
 .heroHeading {
   @apply text-[var(--primary-color)] text-4xl bg-transparent text-center w-full;
