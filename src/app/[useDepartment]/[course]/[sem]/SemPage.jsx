@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import ImageNav from "@/components/ImageNav/ImageNav";
 import { Helmet } from "react-helmet";
 
-const Page = () => {
+const SemPage = () => {
   const router = useRouter();
   const { useDepartment, sem, course } = useParams();
   const department = useDepartment;
@@ -45,4 +45,4 @@ const Page = () => {
     </main>
   );
 };
-export default Page;
+export default SemPage;

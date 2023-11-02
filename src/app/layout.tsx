@@ -10,8 +10,32 @@ const inter = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     default: "LearnEaseU",
-    template: "%s",
+    template: "%s | LearnEaseU",
   },
+  description:
+    "LearnEaseU: Your Academic Companion,Discover LearnEaseU, your central hub for academic success at Central University. Simplifying your education with comprehensive department-specific resources, we're committed to making your learning journey efficient and effective. Explore notes, sessional materials, and PYQs, connecting with a community of learners. Your pathway to academic excellence starts here.",
+
+  keywords: [
+    "Central University",
+    "Central University of Haryana",
+    "CUH",
+    "Notes",
+    "seassonls",
+    "End Term Exam",
+    "PYQs",
+    "Academic Resources",
+    "Learning Materials",
+    "Study Notes",
+    "Sessional Materials",
+    "Previous Year Questions",
+    "Department-Specific Resources",
+    "Academic Excellence",
+    "Simplified Learning",
+    "Education Portal",
+    "Student Community",
+  ],
+  creator: "Rohit Yadav",
+  publisher: "Rohit Yadav",
 };
 
 export default function RootLayout({
