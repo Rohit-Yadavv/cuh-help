@@ -5,7 +5,7 @@ import Link from "next/link";
 import ImageNav from "@/components/ImageNav/ImageNav";
 
 export const metadata: Metadata = {
-  title: "About Us",
+  title: "About Us ",
 };
 
 const AboutPage = () => {

@@ -10,7 +10,7 @@ const inter = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: {
     default: "LearnEaseU - Simplify Your Academic Journey",
-    template: "%s | LearnEaseU",
+    template: "%s | LearnEaseU - Simplify Your Academic Journey",
   },
   description:
     "Download Sessionals,Study materials, and PYQs for Central University. Simplify your studies and excel with LearnEaseU",
