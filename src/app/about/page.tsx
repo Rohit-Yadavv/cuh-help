@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import React from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import ImageNav from "@/components/ImageNav/ImageNav";
+
+export const metadata: Metadata = {
+  title: "About Us",
+};
 
 const AboutPage = () => {
   return (
@@ -111,3 +116,9 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+
+// export async function generateMetadata({ params }: { params: any }) {
+//   return {
+//     title: "About Us",
+//   };
+// }

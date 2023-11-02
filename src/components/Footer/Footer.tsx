@@ -40,9 +40,17 @@ const Footer = () => {
         <Link href="/" className={styles.logo}>
           <Image src="/logo.png" alt="logo" width="200" height="200" />
         </Link>
-        <div className={styles.link}>
-          <Link href="/about">About Us</Link>
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScuvG-bJQJbKFBcXZN7OL1NCrzlmb0-8eAjS45dZdden7sVKg/viewform">
+        <div className={styles.linkWrapper}>
+          <Link className={styles.link} href="/">
+            Home
+          </Link>
+          <Link className={styles.link} href="/about">
+            About Us
+          </Link>
+          <Link
+            className={styles.link}
+            href="https://docs.google.com/forms/d/e/1FAIpQLScuvG-bJQJbKFBcXZN7OL1NCrzlmb0-8eAjS45dZdden7sVKg/viewform"
+          >
             Contribute
           </Link>
         </div>

@@ -8,8 +8,11 @@
   @apply flex items-center justify-center;
 }
 
-.link {
+.linkWrapper {
   @apply flex items-center justify-evenly gap-5;
+}
+.link:hover {
+  color: var(--button-bg);
 }
 .footerText {
   @apply text-center text-xl;

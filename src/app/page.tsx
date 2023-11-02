@@ -8,7 +8,7 @@ import ImageNav from "@/components/ImageNav/ImageNav";
 export default function Home() {
   return (
     <main className={styles.mainWrapper}>
-      <ImageNav text="From Arts to Sciences, Notes for All Departments, Only at LearnEaseU" />
+      <ImageNav text=" Your academic shortcut to success" />
 
       {/* department  */}
       <div className={styles.sectionWrapper}>

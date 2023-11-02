@@ -4,9 +4,8 @@ import { notFound, useParams } from "next/navigation";
 import files from "@/constants/";
 import NotesCard from "@/components/NotesCard/NotesCard";
 import { useRouter } from "next/navigation";
-import Image from "next/image";
-import Link from "next/link";
 import ImageNav from "@/components/ImageNav/ImageNav";
+import { Helmet } from "react-helmet";
 
 const Page = () => {
   const router = useRouter();
@@ -24,7 +23,10 @@ const Page = () => {
 
   return (
     <main className={styles.mainWrapper}>
-      <ImageNav text={`${department} ${course} ${sem} notes`} />
+      <Helmet>
+        <title>{`${department} ${course} ${sem} - LearnEaseU`}</title>
+      </Helmet>
+      <ImageNav text={`${department} ${course} ${sem}`} />
 
       {/* department  */}
       <div className={styles.sectionWrapper}>

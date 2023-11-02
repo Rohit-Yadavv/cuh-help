@@ -10,6 +10,6 @@
   @apply bg-transparent cursor-pointer w-[250px] sm:w-[400px];
 }
 .heroHeading {
-  @apply text-[var(--primary-color)] text-xl sm:text-2xl bg-transparent text-center w-full;
+  @apply text-[var(--primary-color)] text-4xl bg-transparent text-center w-full;
   text-transform: capitalize;
 }

@@ -31,21 +31,40 @@ const csebtechsem1 = [
   },
   {
     id: 6,
+    subjectName: "BEE Book",
+    contentType: "SK Shadev BEE Book",
+    driveLink: "https://drive.google.com/file/d/1O-tD8bVhi0aGF409LFARpL9F9E1EHTo5/view?usp=sharing"
+  },
+  {
+    id: 7,
+    subjectName: "Maths Book",
+    contentType: "Advance Enginnering Maths",
+    driveLink: "https://drive.google.com/file/d/1g7WZyL4wBX7j6uaVaz7oOoWBbn5x2bYI/view?usp=sharing"
+  },
+  {
+    id: 8,
+    subjectName: "EGD Book",
+    contentType: "ENGINEERING DRAWING BY N.D BHATT",
+    driveLink: "https://drive.google.com/file/d/1g7WZyL4wBX7j6uaVaz7oOoWBbn5x2bYI/view?usp=sharing"
+  },
+  {
+    id: 9,
     subjectName: "English Labfile",
     contentType: "Part 1",
     driveLink: "https://drive.google.com/file/d/12yX_rqyzIqE7oeD13qsj11Crr6MfOpxk/view?usp=sharing"
   },
   {
-    id: 7,
+    id: 10,
     subjectName: "English Labfile",
     contentType: "Part 2",
     driveLink: "https://drive.google.com/file/d/1BNQ_NLheiiyVbe_8IDD3Lo6z6Yrj1pto/view?usp=sharing"
   },
+
   {
-    id: 8,
-    subjectName: "Maths Book",
-    contentType: "Advance Enginnering Maths",
-    driveLink: "https://drive.google.com/file/d/1g7WZyL4wBX7j6uaVaz7oOoWBbn5x2bYI/view?usp=sharing"
+    id: 11,
+    subjectName: "Physics Labfile",
+    contentType: "Complete Labfile",
+    driveLink: "https://drive.google.com/file/d/1H4iUxDsHP9_-nRGHc4kI5wOr403gu3X3/view?usp=sharing"
   },
 ]
 

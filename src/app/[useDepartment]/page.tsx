@@ -3,7 +3,10 @@ import styles from "@/app/page.module.css";
 import Card from "@/components/Card/Card";
 import ImageNav from "@/components/ImageNav/ImageNav";
 import { departments } from "@/constants/department";
+import Head from "next/head";
 import { notFound, useParams } from "next/navigation";
+import { Helmet } from "react-helmet";
+
 const Page = () => {
   // Make sure to capitalize the component name
   const { useDepartment } = useParams();
@@ -13,10 +16,14 @@ const Page = () => {
   if (!curDep) {
     return notFound();
   }
+
   return (
     <main className={styles.mainWrapper}>
-      {/* image */}
+      <Helmet>
+        <title>{curDep.shortName} - LearnEaseU</title>
+      </Helmet>
       <ImageNav text={`${curDep.fullName} Notes`} />
+
       {curDep?.course?.map((item) => (
         <div key={item.name} className={styles.sectionWrapper}>
           <h2 className={styles.heading}>{item.name}</h2>
@@ -35,5 +42,4 @@ const Page = () => {
     </main>
   );
 };
-
-export default Page; // Make sure to export with an uppercase name
+export default Page;
