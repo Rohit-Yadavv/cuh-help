@@ -8,6 +8,7 @@ export async function generateMetadata({ params }: any) {
   const finalUppercase = final.replace(/\b\w/g, (match) => match.toUpperCase());
   return {
     title: { finalUppercase },
+    description: `Download Sessionals,Study materials, and PYQs of ${semsester} ${course} ${department}`,
     openGraph: {
       title: { finalUppercase },
       description: `Download Sessionals,Study materials, and PYQs of ${semsester} ${course} ${department}`,

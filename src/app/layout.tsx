@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     template: "%s | LearnEaseU",
   },
   description:
-    "LearnEaseU: Your Academic Companion,Discover LearnEaseU, your central hub for academic success at Central University. Simplifying your education with comprehensive department-specific resources, we're committed to making your learning journey efficient and effective. Explore notes, sessional materials, and PYQs, connecting with a community of learners. Your pathway to academic excellence starts here.",
+    "Download Sessionals,Study materials, and PYQs for Central University. Simplify your studies and excel with LearnEaseU",
 
   keywords: [
     "Central University",
@@ -38,7 +38,8 @@ export const metadata: Metadata = {
   publisher: "Rohit Yadav",
   openGraph: {
     title: "LearnEaseU",
-    description: `Download Sessionals,Study materials, and PYQs for Central University. Simplify your studies and excel with LearnEaseU.`,
+    description:
+      "Download Sessionals,Study materials, and PYQs for Central University. Simplify your studies and excel with LearnEaseU",
   },
 };
 

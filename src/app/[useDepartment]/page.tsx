@@ -5,6 +5,7 @@ export async function generateMetadata({ params }: any) {
 
   return {
     title: department.toUpperCase(),
+    description: `Download Sessionals,Study materials, and PYQs of ${department}}`,
     openGraph: {
       title: { department },
       description: `Download Sessionals,Study materials, and PYQs of ${department}}`,
