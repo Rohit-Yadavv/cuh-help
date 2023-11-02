@@ -9,7 +9,7 @@ const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "LearnEaseU",
+    default: "LearnEaseU - Simplify Your Academic Journey",
     template: "%s | LearnEaseU",
   },
   description:
