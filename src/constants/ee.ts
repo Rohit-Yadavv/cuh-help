@@ -1,73 +1,39 @@
-const eesem1 = [
+const eebtechsem1 = [
     {
-        subjectName: "about",
-        driveLink: "About",
-    },
-    {
-        subjectName: "skills",
-        driveLink: "Skills",
-    },
-    {
-        subjectName: "projects",
-        driveLink: "Projects",
-    },
-    {
-        subjectName: "contact",
-        driveLink: "Contact",
+        id: 1,
+        subjectName: "End Term Exam",
+        contentType: "2018-2019",
+        driveLink: "https://drive.google.com/file/d/1wyEM1c9xlcbZs4041x0UASJQRrpQn3gX/view?usp=sharing"
     },
 ]
-const eesem2 = [
+// const eebtechsem2 = [
+//     {
+//         id: 1,
+//         subjectName: "End Term Exam",
+//         contentType: "2018-2019",
+//         driveLink: "https://drive.google.com/file/d/1wyEM1c9xlcbZs4041x0UASJQRrpQn3gX/view?usp=sharing"
+//     },
+// ]
+const eebtechsem3 = [
     {
-        subjectName: "about",
-        driveLink: "About",
+        id: 1,
+        subjectName: "End Term Exam",
+        contentType: "2018-2019",
+        driveLink: "https://drive.google.com/file/d/1wyEM1c9xlcbZs4041x0UASJQRrpQn3gX/view?usp=sharing"
     },
     {
-        subjectName: "skills",
-        driveLink: "Skills",
-    },
-    {
-        subjectName: "projects",
-        driveLink: "Projects",
-    },
-    {
-        subjectName: "contact",
-        driveLink: "Contact",
-    },
-]
-const eesem3 = [
-    {
-        subjectName: "about",
-        driveLink: "About",
-    },
-    {
-        subjectName: "skills",
-        driveLink: "Skills",
-    },
-    {
-        subjectName: "projects",
-        driveLink: "Projects",
-    },
-    {
-        subjectName: "contact",
-        driveLink: "Contact",
+        id: 1,
+        subjectName: "End Term Exam",
+        contentType: "2023",
+        driveLink: "https://drive.google.com/file/d/1ViVcsfbJoAWnidVPJuSvrWdYMJRL8TIp/view?usp=sharing"
     },
 ]
-const eesem4 = [
+const eebtechsem5 = [
     {
-        subjectName: "about",
-        driveLink: "About",
-    },
-    {
-        subjectName: "skills",
-        driveLink: "Skills",
-    },
-    {
-        subjectName: "projects",
-        driveLink: "Projects",
-    },
-    {
-        subjectName: "contact",
-        driveLink: "Contact",
+        id: 1,
+        subjectName: "End Term Exam",
+        contentType: "2018-2019",
+        driveLink: "https://drive.google.com/file/d/1d2thzI6eA_r3X5wHGNYdHSls4iL_r-Sd/view?usp=sharing"
     },
 ]
-export { eesem1, eesem2, eesem3, eesem4 };
+export { eebtechsem1, eebtechsem3, eebtechsem5 };
