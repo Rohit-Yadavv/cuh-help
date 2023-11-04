@@ -68,6 +68,57 @@ const csebtechsem1 = [
   },
 ]
 
+
+const csebtechsem2 = [
+  {
+    id: 1,
+    subjectName: "Syllabus",
+    contentType: "Sem 2 syllabus",
+    driveLink: "https://drive.google.com/file/d/1BmR1hCh_wwpAGwlAdL6QNmJpZONxRbwz/view?usp=sharing"
+  },
+  {
+    id: 2,
+    subjectName: "End Term Exam",
+    contentType: "2022",
+    driveLink: "https://drive.google.com/file/d/1Bw19ULrySiLvbY1p8nKTEplvamzD844T/view?usp=sharing"
+  }, {
+    id: 3,
+    subjectName: "Sessional",
+    contentType: "1st Sessional",
+    driveLink: "https://drive.google.com/file/d/1UGBSnk2ZNTKtCzLH5ICyUEzmUI3exWRo/view?usp=sharing"
+  }, {
+    id: 4,
+    subjectName: "Sessional",
+    contentType: "2nd Sessional",
+    driveLink: "https://drive.google.com/file/d/1ItNuMUNbl-k3xdPIVUsvMTe4fyd80WjM/view?usp=sharing"
+  }, {
+    id: 5,
+    subjectName: "WorkShop",
+    contentType: "Assignment",
+    driveLink: "https://drive.google.com/file/d/1K80SP5neskTy2jCN-4X85madYiZvFYEk/view?usp=sharing"
+  }, {
+    id: 6,
+    subjectName: "Chemistry Lab",
+    contentType: "Practicle File",
+    driveLink: "https://drive.google.com/file/d/1lxUs4hnwbwI-Q43BA6DEUxeJjPDrofcL/view?usp=sharing"
+  }, {
+    id: 7,
+    subjectName: "Chemistry",
+    contentType: "Assignment",
+    driveLink: "https://drive.google.com/file/d/1eUNaUsVGu0jrikyoXBBFq4bdS_9cJ07t/view?usp=sharing"
+  }, {
+    id: 8,
+    subjectName: "Chemistry",
+    contentType: "Unit 1 and 2 Notes",
+    driveLink: "https://drive.google.com/file/d/1lfIpu3QKZiCcoiXODawA2UjH9QeJLydu/view?usp=sharing"
+  }, {
+    id: 9,
+    subjectName: "Math",
+    contentType: "Notes",
+    driveLink: "https://drive.google.com/file/d/1eyzQJe4IUOdu6ORVBH6w8z0yC7d7TGor/view?usp=sharing"
+  },
+]
+
 const csebtechsem3 = [
   {
     id: 1,
@@ -144,27 +195,6 @@ const csebtechsem3 = [
 ]
 
 
-
-
-
-// const csebtechsem2 = [
-//   {
-//     subjectName: "about",
-//     driveLink: "About",
-//   },
-//   {
-//     subjectName: "skills",
-//     driveLink: "Skills",
-//   },
-//   {
-//     subjectName: "projects",
-//     driveLink: "Projects",
-//   },
-//   {
-//     subjectName: "contact",
-//     driveLink: "Contact",
-//   },
-// ]
 // const csebtechsem3 = [
 //   {
 //     subjectName: "about",
@@ -201,5 +231,5 @@ const csebtechsem3 = [
 //     driveLink: "Contact",
 //   },
 // ]
-// export { csebtechsem1, csebtechsem2, csebtechsem3, csebtechsem4 };
-export { csebtechsem1, csebtechsem3 };
+// export { csebtechsem1, , csebtechsem3, csebtechsem4 };
+export { csebtechsem1, csebtechsem2, csebtechsem3 };
