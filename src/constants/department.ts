@@ -12,6 +12,10 @@ export const departments = [
         course: [{ name: "Btech", totalSem: 8 }, { name: "Mtech", totalSem: 4 }]
     },
     {
+        fullName: "Printing and Packaging Technology", shortName: "PPT",
+        course: [{ name: "Btech", totalSem: 8 }]
+    },
+    {
         fullName: "Department of Mathematics", shortName: "MATHS",
         course: [{ name: "Bsc", totalSem: 6 }, { name: "Msc", totalSem: 4 }]
     },
@@ -22,5 +26,9 @@ export const departments = [
     {
         fullName: "Department of Law", shortName: "LAW",
         course: [{ name: "LLB", totalSem: 6 }]
+    },
+    {
+        fullName: "Department of Physics", shortName: "Physics",
+        course: [{ name: "Bsc", totalSem: 6 }, { name: "Msc", totalSem: 4 }]
     },
 ]

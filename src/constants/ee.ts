@@ -3,7 +3,7 @@ const eebtechsem1 = [
         id: 1,
         subjectName: "End Term Exam",
         contentType: "2018-2019",
-        driveLink: "https://drive.google.com/file/d/1wyEM1c9xlcbZs4041x0UASJQRrpQn3gX/view?usp=sharing"
+        driveLink: "https://drive.google.com/file/d/1orV2MTLYvOsW0iFUpc4T-oQ9A7pORNgY/view?usp=sharing"
     },
 ]
 // const eebtechsem2 = [
@@ -19,7 +19,7 @@ const eebtechsem3 = [
         id: 1,
         subjectName: "End Term Exam",
         contentType: "2018-2019",
-        driveLink: "https://drive.google.com/file/d/1wyEM1c9xlcbZs4041x0UASJQRrpQn3gX/view?usp=sharing"
+        driveLink: "https://drive.google.com/file/d/1_C5erfGUXajuiTB2_3InZFtSWqvHdqwc/view?usp=sharing"
     },
     {
         id: 1,
