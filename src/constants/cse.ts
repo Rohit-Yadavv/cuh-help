@@ -95,15 +95,27 @@ const csebtechsem2 = [
     driveLink: "https://drive.google.com/file/d/1Bw19ULrySiLvbY1p8nKTEplvamzD844T/view?usp=sharing"
   },
   {
+    id: 13,
+    subjectName: "Sessional1",
+    contentType: "2023-24",
+    driveLink: "https://drive.google.com/file/d/13XjZIdl_v_SKCyeSbsqriBUwdwrrrLr2/view?usp=sharing"
+  },
+  {
+    id: 113,
+    subjectName: "Sessional2",
+    contentType: "2023-24",
+    driveLink: "https://drive.google.com/file/d/19xGyJB33wt_H9Tg2Olyyh_kJQhCTAB3D/view?usp=sharing"
+  },
+  {
     id: 3,
     subjectName: "Sessional1",
-    contentType: "2023",
+    contentType: "2022-23",
     driveLink: "https://drive.google.com/file/d/1AKg8z4ppx723pd__ql_NGWCYINDOZLzC/view?usp=sharing"
   },
   {
     id: 3,
     subjectName: "Sessional 2",
-    contentType: "2023",
+    contentType: "2022-23",
     driveLink: "https://drive.google.com/file/d/1AgHWgA_En_XGn3W9SgoLgD0G8HygSVc4/view?usp=sharing"
   },
   {
