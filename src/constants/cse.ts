@@ -95,18 +95,6 @@ const csebtechsem2 = [
     driveLink: "https://drive.google.com/file/d/1Bw19ULrySiLvbY1p8nKTEplvamzD844T/view?usp=sharing"
   },
   {
-    id: 13,
-    subjectName: "Sessional1",
-    contentType: "2023-24",
-    driveLink: "https://drive.google.com/file/d/13XjZIdl_v_SKCyeSbsqriBUwdwrrrLr2/view?usp=sharing"
-  },
-  {
-    id: 113,
-    subjectName: "Sessional2",
-    contentType: "2023-24",
-    driveLink: "https://drive.google.com/file/d/19xGyJB33wt_H9Tg2Olyyh_kJQhCTAB3D/view?usp=sharing"
-  },
-  {
     id: 3,
     subjectName: "Sessional1",
     contentType: "2022-23",
@@ -163,15 +151,28 @@ const csebtechsem3 = [
     subjectName: "End Term Exam",
     contentType: "2023",
     driveLink: "https://drive.google.com/file/d/1AHbMlGuV7uUHHOrn9cghubdFu7bc4Za-/view?usp=sharing"
-  }, {
+  }, 
+  {
+    id: 13,
+    subjectName: "Sessional 1",
+    contentType: "2023-24",
+    driveLink: "https://drive.google.com/file/d/13XjZIdl_v_SKCyeSbsqriBUwdwrrrLr2/view?usp=sharing"
+  },
+  {
+    id: 113,
+    subjectName: "Sessional 2",
+    contentType: "2023-24",
+    driveLink: "https://drive.google.com/file/d/19xGyJB33wt_H9Tg2Olyyh_kJQhCTAB3D/view?usp=sharing"
+  },
+  {
     id: 2,
-    subjectName: "Sessional",
-    contentType: "1st Sessional",
+    subjectName: "Sessional 1",
+    contentType: "2022-23",
     driveLink: "https://drive.google.com/file/d/1sUTgKwjvUGM8bOB5uRmp49tob0qdHUmC/view?usp=sharing"
   }, {
     id: 3,
-    subjectName: "Sessional",
-    contentType: "2nd Sessional",
+    subjectName: "Sessional 2",
+    contentType: "2022-23",
     driveLink: "https://drive.google.com/file/d/1AvVgRx4ImyxPllxy-wVfyB2P40xGr2_K/view?usp=sharing"
   }, {
     id: 4,
