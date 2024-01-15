@@ -229,11 +229,24 @@ const csebtechsem3 = [
     subjectName: "DE Lab",
     contentType: "Labfile",
     driveLink: "https://drive.google.com/file/d/1gDdTPK-vvdJqknl8uqTR14kzmsBJ_9n9/view?usp=sharing"
-  }, {
+  },
+  {
     id: 15,
-    subjectName: "FOM",
-    contentType: "Notes",
-    driveLink: "https://drive.google.com/file/d/1TSc8I_Jh52dpZewK4NKIKIccm0wFNccI/view?usp=sharing"
+    subjectName: "FOM Notes",
+    contentType: "Unit 1",
+    driveLink: "https://drive.google.com/file/d/1qHvFH2VtleduMzBb_TjMphk3WdF8RFz6/view?usp=sharing"
+  },
+  {
+    id: 16,
+    subjectName: "FOM Notes",
+    contentType: "Unit 2",
+    driveLink: "https://drive.google.com/file/d/1PT1GPMsuRXL-psxuzt8buCLE7HMxVVG5/view?usp=sharing"
+  },
+  {
+    id: 17,
+    subjectName: "FOM Notes",
+    contentType: "Unit 3",
+    driveLink: "https://drive.google.com/file/d/1_-ZF7W1CJlIp7KgmuaD_DtoTXxmUFoYt/view?usp=sharing"
   },
 
 ]
