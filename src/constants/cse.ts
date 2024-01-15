@@ -229,6 +229,11 @@ const csebtechsem3 = [
     subjectName: "DE Lab",
     contentType: "Labfile",
     driveLink: "https://drive.google.com/file/d/1gDdTPK-vvdJqknl8uqTR14kzmsBJ_9n9/view?usp=sharing"
+  }, {
+    id: 15,
+    subjectName: "FOM",
+    contentType: "Notes",
+    driveLink: "https://drive.google.com/file/d/1TSc8I_Jh52dpZewK4NKIKIccm0wFNccI/view?usp=sharing"
   },
 
 ]
