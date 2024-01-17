@@ -78,6 +78,30 @@ const csebtechsem1 = [
     contentType: "Complete Labfile",
     driveLink: "https://drive.google.com/file/d/1H4iUxDsHP9_-nRGHc4kI5wOr403gu3X3/view?usp=sharing"
   },
+  {
+    id: 12,
+    subjectName: "Maths Notes",
+    contentType: "Unit 1",
+    driveLink: "https://drive.google.com/file/d/1fuqAMC6yu32rrSX7_3LDfPZ8VrMU3B4-/view?usp=sharing"
+  },
+  {
+    id: 13,
+    subjectName: "Maths Notes",
+    contentType: "Unit 2",
+    driveLink: "https://drive.google.com/file/d/14GhXOWmGSocVJqiSXpX0Mz6L6sJt2pec/view?usp=sharing"
+  },
+  {
+    id: 14,
+    subjectName: "Maths Notes",
+    contentType: "Unit 3",
+    driveLink: "https://drive.google.com/file/d/17e2FNjZJ2twMouYH7h4ne-wfVvB8rNpM/view?usp=sharing"
+  },
+  {
+    id: 15,
+    subjectName: "Maths Notes",
+    contentType: "Unit 4",
+    driveLink: "https://drive.google.com/file/d/1r3mh3yckcbNg1aLekj3YoDzkGjz1nJg1/view?usp=sharing"
+  },
 ]
 
 
@@ -142,6 +166,11 @@ const csebtechsem2 = [
     subjectName: "Math",
     contentType: "Notes",
     driveLink: "https://drive.google.com/file/d/1eyzQJe4IUOdu6ORVBH6w8z0yC7d7TGor/view?usp=sharing"
+  },{
+    id: 9,
+    subjectName: "PPS",
+    contentType: "Notes",
+    driveLink: "https://drive.google.com/file/d/1VwBROPCKTPWU_9x2adWHmFkbLpkyXNoQ/view?usp=sharing"
   },
 ]
 
@@ -247,6 +276,30 @@ const csebtechsem3 = [
     subjectName: "FOM Notes",
     contentType: "Unit 3",
     driveLink: "https://drive.google.com/file/d/1_-ZF7W1CJlIp7KgmuaD_DtoTXxmUFoYt/view?usp=sharing"
+  },
+  {
+    id: 18,
+    subjectName: "Maths Notes",
+    contentType: "Unit 1",
+    driveLink: "https://drive.google.com/file/d/1fuqAMC6yu32rrSX7_3LDfPZ8VrMU3B4-/view?usp=sharing"
+  },
+  {
+    id: 19,
+    subjectName: "Maths Notes",
+    contentType: "Unit 2",
+    driveLink: "https://drive.google.com/file/d/14GhXOWmGSocVJqiSXpX0Mz6L6sJt2pec/view?usp=sharing"
+  },
+  {
+    id: 20,
+    subjectName: "Maths Notes",
+    contentType: "Unit 3",
+    driveLink: "https://drive.google.com/file/d/17e2FNjZJ2twMouYH7h4ne-wfVvB8rNpM/view?usp=sharing"
+  },
+  {
+    id: 21,
+    subjectName: "Maths Notes",
+    contentType: "Unit 4",
+    driveLink: "https://drive.google.com/file/d/1r3mh3yckcbNg1aLekj3YoDzkGjz1nJg1/view?usp=sharing"
   },
 
 ]
