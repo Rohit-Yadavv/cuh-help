@@ -1,6 +1,17 @@
-# CUH-Help (LearnEaseU)
+# CUH-Help (LearneaseU)
 
-CUH-Help (LearnEaseU), is a platform designed to simplify the studies of Central University of Haryana (CUH) students. It provides a convenient way for students to access and download sessional papers, study materials, and previous year questions (PYQs) relevant to their courses.
+CUH-Help, also known as LearneaseU, is a platform designed to simplify the studies of Central University of Haryana (CUH) students. It provides a convenient way for students to access and download sessional papers, study materials, and previous year questions (PYQs) relevant to their courses.
+
+## Table of Contents
+
+- [Features](#features)
+- [Why CUH-Help](#why-cuh-help)
+- [Problems Solved](#problems-solved)
+- [Technologies Used](#technologies-used)
+- [Usage](#usage)
+- [Installation](#installation)
+- [How to Contribute](#how-to-contribute)
+- [Live Link](#live-link)
 
 ## Features
 
@@ -29,7 +40,46 @@ Access to sessional papers, study materials, and PYQs allows students to better 
 2. **Time Constraints**: The platform saves students time by offering downloadable resources, eliminating the need for manual searching.
 3. **Lack of Organization**: By organizing resources by course, CUH-Help improves the organization and accessibility of study materials.
 
-## Technologies Used : Nextjs, Tailwind css, JavaScript, MongoDB
+## Technologies Used
+
+- **Frontend**: [Add frontend technologies]
+- **Backend**: [Add backend technologies]
+- **Database**: [Add database technology]
+- **Authentication**: [Add authentication technology]
+
+## Usage
+
+[Add instructions on how to use CUH-Help, including any setup or configuration steps.]
+
+## Installation
+
+To install and run CUH-Help locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/cuh-help.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd cuh-help
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open your browser and visit http://localhost:3000 to access CUH-Help locally.
 
 ## How to Contribute
 
