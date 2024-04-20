@@ -40,12 +40,7 @@ Access to sessional papers, study materials, and PYQs allows students to better 
 2. **Time Constraints**: The platform saves students time by offering downloadable resources, eliminating the need for manual searching.
 3. **Lack of Organization**: By organizing resources by course, CUH-Help improves the organization and accessibility of study materials.
 
-## Technologies Used
-
-- **Frontend**: [Add frontend technologies]
-- **Backend**: [Add backend technologies]
-- **Database**: [Add database technology]
-- **Authentication**: [Add authentication technology]
+## Technologies Used: Nextjs, TailwindCSS, TypeScript, JavaScript
 
 ## Usage
 
