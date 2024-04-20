@@ -53,7 +53,7 @@ To install and run CUH-Help locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/cuh-help.git
+   git clone https://github.com/rohit-yadavv/cuh-help.git
    ```
 
 2. Navigate to the project directory:
@@ -74,7 +74,7 @@ To install and run CUH-Help locally, follow these steps:
    npm run dev
    ```
 
-5. Open your browser and visit http://localhost:3000 to access CUH-Help locally.
+5. Open your browser and visit http://localhost:5173 to access CUH-Help locally.
 
 ## How to Contribute
 
