@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CUH-Help (LearnEaseU)
 
-## Getting Started
+CUH-Help (LearnEaseU), is a platform designed to simplify the studies of Central University of Haryana (CUH) students. It provides a convenient way for students to access and download sessional papers, study materials, and previous year questions (PYQs) relevant to their courses.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Downloadable Resources**: Students can download sessional papers, study materials, and PYQs for their respective courses.
+- **Course Organization**: Resources are organized by course, making it easy for students to find relevant materials.
+- **Search Functionality**: Users can search for specific resources by course name or keywords.
+- **User Accounts**: Students can create accounts to save their favorite resources or track their downloads.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why CUH-Help
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Enhanced Study Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+CUH-Help enhances the study experience of CUH students by providing easy access to study materials and resources. It eliminates the need for manual searching and offers a centralized platform for academic resources.
 
-## Learn More
+### Time-Saving Solution
 
-To learn more about Next.js, take a look at the following resources:
+By offering downloadable resources, CUH-Help saves students time that would otherwise be spent searching for materials across various platforms. It streamlines the process of finding relevant study materials.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Improved Academic Performance
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Access to sessional papers, study materials, and PYQs allows students to better prepare for exams and assessments, potentially leading to improved academic performance.
 
-## Deploy on Vercel
+## Problems Solved
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Difficulty in Finding Resources**: CUH-Help addresses the challenge of finding study materials by providing a centralized platform for accessing sessional papers, study materials, and PYQs.
+2. **Time Constraints**: The platform saves students time by offering downloadable resources, eliminating the need for manual searching.
+3. **Lack of Organization**: By organizing resources by course, CUH-Help improves the organization and accessibility of study materials.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies Used : Nextjs, Tailwind css, JavaScript, MongoDB
+
+## How to Contribute
+
+Contributions are welcome and encouraged! To contribute to CUH-Help, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (e.g., `feature/new-feature` or `fix/bug-fix`).
+3. Make your changes.
+4. Commit your changes with descriptive commit messages.
+5. Push your changes to your fork.
+6. Submit a pull request to the `main` branch of the original repository.
+
+Please ensure your code adheres to the existing code style and conventions. Also, make sure to update any relevant documentation.
+
+## Live Link
+
+[Visit CUH-Help](https://learneaseu.vercel.app/)
